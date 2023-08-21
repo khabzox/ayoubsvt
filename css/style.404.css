@@ -1,0 +1,89 @@
+  *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+
+  body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+  }
+  #error-page{
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    right: 15%;
+    bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff80;
+    border-radius: 2%;
+    border: #ffffff4d solid 2px;
+    box-shadow: 0px 0px 20px 0px #ffffff4d;
+  }
+  #error-page .content{
+    max-width: 600px;
+    text-align: center;
+  }
+  .content h2.header{
+    font-size: 18vw;
+    line-height: 1em;
+    position: relative;
+    color: #5b3affce;
+  }
+  .content h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ff0000;
+    font-size: 2em;
+    max-width: 600px;
+  }
+  
+  .content p{
+    font-size: 1.2em;
+    color: #0d0d0d;
+  }
+  .content .btns{
+    margin: 25px 0;
+    display: inline-flex;
+  }
+  .content .btns a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid #5B3AFF;
+    color: #5B3AFF;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  .content .btns a:hover{
+    background: #5B3AFF;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 990px) {
+      #error-page{
+          top: 11%;
+          left: 5%;
+          right: 5%;
+          bottom: 4%;
+          background: none;
+          border: none;
+          box-shadow: none;
+        }
+        .content h2.header{
+            font-size: 30vw;
+            line-height: 1.2em;
+            position: relative;
+            color: #0d0d0d1c;
+          }
+    }
