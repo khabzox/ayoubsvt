@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AyoubSVT | Tableau</title>
+    <link rel="icon" href="../../IMG/logo-header.png">
+    <link rel="stylesheet" href="../../css/style_botstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Notes.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <meta name="theme-color" content="#5B3AFF">
+    <link rel="stylesheet" href="../css/nav-section.main.css">
+    <meta name="author" content="Abdelkabir" />
+    <meta property="og:title" content="AyoubSVT | les cours des SVT sur Internet" />
+    <meta property="og:description"
+      content="Je suis Ayoub, un enseignant spécialisé dans les sciences de la vie et de la terre, et mon enseignement se caractérise par la compétence et l’expérience dans la communication d’informations aux étudiants de manière innovante et intéressante, grâce à une méthodologie complète et mon accent sur des exemples pratiques et des applications du monde réel, en plus de l’utilisation de technologies éducatives avancées, en mettant l’accent sur le développement des capacités des étudiants et des compétences de pensée scientifique pour atteindre la réussite scolaire." />
+    <meta property="og:image" content="IMG/org-facebook.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="keywords" content="tableau, tableau de Ayoub, tableau de Ayoub de SVT, tableau ayoubSVT,E-tableau, E-tableau de Ayoub svt">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script>
+      document.addEventListener("contextmenu", e => e.preventDefault(), false);
+  </script>
+        <script>
+          document.addEventListener("keydown", e => {
+            // USE THIS TO DISABLE CONTROL AND ALL FUNCTION KEYS
+            // if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+            // THIS WILL ONLY DISABLE CONTROL AND F12
+            if (e.ctrlKey || e.keyCode==123) {
+              e.stopPropagation();
+              e.preventDefault();
+            }
+          });
+        </script>
+  </head>
+  <body>
+    <header>
+      <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="../../IMG/logo-header.png" alt="">
+                </span>
+                <div class="text logo-text">
+                  <span class="name"><a href="../../index.html"><img src="../../IMG/logo-small.png" width="85%" alt=""></a></span>
+                  <!-- <span class="profession">Votre École sur Internet</span> -->
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <!-- <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li> -->
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="../index.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">ACCEIL</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="Laboratoire.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Laboratoire</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="calculator.html">
+                            <i class='bx bx-calculator icon'></i>
+                            <span class="text nav-text">Calculatrice</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="tableau.html">
+                            <i class='bx bx-chalkboard icon' ></i>
+                            <span class="text nav-text">Tableau</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="chatbot.html">
+                            <i class='bx bx-bot icon' ></i>
+                            <span class="text nav-text">Chatbot</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-note icon' ></i>
+                            <span class="text nav-text">Notes</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div> -->
+        </div>
+    </nav>
+
+      </header>
+
+
+      <main style="margin-top: 50px;">
+        <article>
+
+
+            <div class="popup-box">
+                <div class="popup">
+                  <div class="content">
+                    <header>
+                      <p></p>
+                      <i class="uil uil-times"></i>
+                    </header>
+                    <form action="#">
+                      <div class="row title">
+                        <label>Titre</label>
+                        <input type="text" spellcheck="false">
+                      </div>
+                      <div class="row description">
+                        <label>Description</label>
+                        <textarea spellcheck="false"></textarea>
+                      </div>
+                      <button></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <li class="add-box">
+                  <div class="icon"><i class="uil uil-plus"></i></div>
+                  <p>Ajouter une nouvelle note</p>
+                </li>
+              </div>
+<style>
+  main{
+    margin-left: 5%;
+  }
+  @media (max-width:990px) {
+    main{
+    margin-left: 0;
+  }
+  }
+</style>
+
+        </article>
+      </main>
+      <script src="../js/nav-section.main.js"></script>
+    <script src="../js/Notes.js"></script>
+    <script src="../../JavaScript/JavaScript_1_Botstrap.js"></script>
+  </body>
+</html>
