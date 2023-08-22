@@ -482,18 +482,25 @@ hero
 
   #hero h1 {
     text-align: initial;
-    font-size: 55px !important;
+    font-size: 55px;
     font-weight: 800;
-    line-height: 68px !important;
+    line-height: 68px;
     color: #fff;
   }
 
 }
 
 @media (max-width: 770px) {
+  #hero {
+    height: 85vh;
+    text-align: center;
+  }
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    text-align: initial;
+    font-size: 45px !important;
+    font-weight: 800;
+    line-height: 50px !important;
+    color: #fff;
   }
 
 
@@ -502,8 +509,8 @@ hero
 @media (max-width: 320px) {
   #hero h1 {
     text-align: initial;
-    font-size: 45px !important;
-    font-weight: 800;
+    font-size: 40px !important;
+    font-weight: 700;
     line-height: 50px !important;
     color: #fff;
   }
@@ -539,12 +546,12 @@ hero
 @media (max-width: 990px) {
 
   .btn-1-btn {
-    padding: 7px;
+    padding: 7.5px;
     margin-bottom: 15px;
   }
 
   .btn-2-btn {
-    padding: 7px;
+    padding: 7.5px;
     margin-bottom: 15px;
   }
 }
@@ -552,13 +559,13 @@ hero
 @media (max-width: 500px) {
 
   .btn-1-btn {
-    padding: 4.5px;
-    margin-bottom: 15px;
+    padding: 6px!important;
+    margin-bottom: 15px!important;
   }
 
   .btn-2-btn {
-    padding: 4.5px;
-    margin-bottom: 15px;
+    padding: 6px!important;
+    margin-bottom: 15px!important;
   }
 }
 
