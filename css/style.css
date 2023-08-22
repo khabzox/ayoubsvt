@@ -470,7 +470,7 @@ hero
 
 @media (max-width: 990px) {
   #hero {
-    height: 100vh;
+    height: 90vh;
     text-align: center;
   }
 
@@ -490,16 +490,15 @@ hero
 
 }
 
-@media (max-width: 770px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+
+@media (max-width: 383px) {
+  #hero {
+    width: 100%;
+    height: 80vh;
+    background:
+      linear-gradient(#5B3AFF, #020079);
+    border-radius: 0 0 7% 7%;
   }
-
-
-}
-
-@media (max-width: 320px) {
   #hero h1 {
     text-align: initial;
     font-size: 45px !important;
