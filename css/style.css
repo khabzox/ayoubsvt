@@ -501,8 +501,8 @@ hero
   }
   #hero h1 {
     text-align: initial;
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 45px!important;
+    font-weight: 800!important;
     line-height: 50px;
     color: #fff;
   }
