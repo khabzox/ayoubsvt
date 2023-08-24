@@ -3,3 +3,5 @@
  - Ce projet est uniquement à des fins éducatives et a été téléchargé afin de faciliter et de communiquer entre l’équipe.
 
 ![website](website.png)
+
+# Merci de votre compréhension
