@@ -4,4 +4,4 @@
 
 ![website](website.png)
 
-# Merci de votre compréhension
+# MERCI DE VOTRE COMPRÉHENSION
