@@ -121,30 +121,35 @@
     </div>
 </nav>
 </header>
+
     <main>
         <article>
-            <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.414/build/spline-viewer.js"></script>
-            <spline-viewer hint loading-anim url="https://prod.spline.design/11s5DAZ5YjN4SZ3r/scene.splinecode"></spline-viewer>
-            <style>
-                spline-viewer{
-                    width: 175vh;
-                    height: 100vh;
-                }
-                @media (max-width:990px) {
-                    spline-viewer{
-                    width: 100%;
-                    height: 100vh;
-                }
-                }
-            </style>
+            <section>
+                <iframe id="myiframe" src="https://deepai.org/chat" title="chatbot" frameborder="0"></iframe>
+              </section>
         </article>
     </main>
-    <script>
-        window.onload = function() {
-                var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
-                shadowRoot.querySelector('#logo').remove();
-            }
-         </script>
+
+</article>
+</main>
+<style>
+body{
+background-color: #13171c!important;
+}
+#myiframe {
+max-width: 100%;
+width: 100%;
+height: calc(100vh - 20px);
+aspect-ratio: 16/9;
+padding-left: 88px;
+}
+@media (max-width:990px) {
+#myiframe {
+padding: 0;
+margin: 0;
+}
+}
+</style>
     <script src="../js/nav-section.main.js"></script>
     <script src="../js/js.Laboratoire.js"></script>
 </body>
