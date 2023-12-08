@@ -16,14 +16,39 @@
 
 <br />
 
-
-
-
-# AyoubSVT
-## Nous regrettons que tous les droits soient réservés, et qu’il ne soit pas possible de modifier ou de republier le site.
- - Ce projet est uniquement à des fins éducatives et a été téléchargé afin de faciliter et de communiquer entre l’équipe.
- - 
 ### Demo Screeshots
+
 ![website](https://github.com/khabzo/ayoubsvt.com/blob/main/readme-images/desktopp.png)
 
-# MERCI DE VOTRE COMPRÉHENSION ❤️
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Run Locally
+
+To run **EduHome** locally, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/khabzo/ayoubsvt.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/khabzo/ayoubsvt.git
+```
+
+### Contact
+
+If you want to contact with me you can reach me at [instagram](https://www.instagram.com/abbir.ar).
+
+### License
+
+This project is **not free to use** and does contains license.
+
+
