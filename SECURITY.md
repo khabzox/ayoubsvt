@@ -1,30 +1,30 @@
-# Privacy policy
-Privacy Policy for AyoubSVT
+ # Politique de Confidentialité
+Politique de Confidentialité pour AyoubSVT
 
-At CodingNepal, we value the privacy of our visitors. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website (https://www.AyoubSVT.com). By using our website, you agree to the terms of this Privacy Policy.
+Chez AyoubSVT, nous accordons une grande importance à la confidentialité de nos visiteurs. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous visitez notre site Web ((www.AyoubSVT.com)[https://www.AyoubSVT.com/]). En utilisant notre site Web, vous acceptez les termes de cette politique de confidentialité.
 
-Information Collection and Use
+ # Collecte et utilisation des informations
 
-We may collect personal information such as your name, email address, phone number, and any other information you provide voluntarily. This information is used to improve our website, provide customer service, and deliver updates and promotional content.
+Nous pouvons collecter des informations personnelles telles que votre nom, votre adresse e-mail, votre numéro de téléphone et toute autre information que vous fournissez volontairement. Ces informations sont utilisées pour améliorer notre site Web, fournir un service client et fournir des mises à jour et du contenu promotionnel.
 
-Log Files and Cookies
+ # Fichiers journaux et cookies
 
-Like many websites, we use log files and cookies to gather non-personal information, such as IP addresses, browser types, and the pages you visit. This data helps us analyze trends, administer the site, and personalize your browsing experience.
+Comme de nombreux sites Web, nous utilisons des fichiers journaux et des cookies pour recueillir des informations non personnelles, telles que les adresses IP, les types de navigateur et les pages que vous visitez. Ces données nous aident à analyser les tendances, à administrer le site et à personnaliser votre expérience de navigation.
 
-Advertising Partners and Third Parties
+ # Partenaires publicitaires et tiers
 
-Some third-party advertising partners may use cookies and similar technologies to display personalized ads. We have no control over these cookies and recommend reviewing the respective Privacy Policies of these advertisers for more information.
+Certains partenaires publicitaires tiers peuvent utiliser des cookies et des technologies similaires pour afficher des publicités personnalisées. Nous n'avons aucun contrôle sur ces cookies et vous recommandons de consulter les politiques de confidentialité respectives de ces annonceurs pour plus d'informations.
 
-Your Rights
+ # Tes droits
 
-Under the CCPA and GDPR, you can access, correct, or delete your data. You can also request that we restrict or stop processing your information. To exercise any of these rights, please contact us.
+En vertu du CCPA et du RGPD, vous pouvez accéder, corriger ou supprimer vos données. Vous pouvez également demander que nous limitions ou arrêtions le traitement de vos informations. Pour exercer l’un de ces droits, veuillez nous contacter.
 
-Children’s Information
+ # Informations pour les enfants
 
-We do not knowingly collect personal information from children under 13. If you believe your child has provided such information on our website, please get in touch with us, and we will promptly remove it from our records.
+Nous ne collectons pas sciemment d'informations personnelles sur des enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni de telles informations sur notre site Web, veuillez nous contacter et nous les supprimerons rapidement de nos dossiers.
 
-Contact Us
+ # Contactez-nous
 
-Please contact us if you have any questions or need further information about our Privacy Policy.
+S'il te plaît Contactez-nous si vous avez des questions ou avez besoin de plus amples informations sur notre politique de confidentialité.
 
-Last updated: 08/24/2023
+Dernière mise à jour: Septembre 9, 2023
