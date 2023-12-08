@@ -1,7 +1,7 @@
  # Politique de Confidentialité
 Politique de Confidentialité pour AyoubSVT
 
-Chez AyoubSVT, nous accordons une grande importance à la confidentialité de nos visiteurs. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous visitez notre site Web ((www.AyoubSVT.com)[https://www.AyoubSVT.com/]). En utilisant notre site Web, vous acceptez les termes de cette politique de confidentialité.
+Chez AyoubSVT, nous accordons une grande importance à la confidentialité de nos visiteurs. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous visitez notre site Web (www.AyoubSVT.com). En utilisant notre site Web, vous acceptez les termes de cette politique de confidentialité.
 
  # Collecte et utilisation des informations
 
@@ -25,6 +25,6 @@ Nous ne collectons pas sciemment d'informations personnelles sur des enfants de 
 
  # Contactez-nous
 
-S'il te plaît Contactez-nous si vous avez des questions ou avez besoin de plus amples informations sur notre politique de confidentialité.
+S'il te plaît (Contactez-nous)[https://ayoubsvt.com/contact-us.html] si vous avez des questions ou avez besoin de plus amples informations sur notre politique de confidentialité.
 
 Dernière mise à jour: Septembre 9, 2023
