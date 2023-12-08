@@ -16,14 +16,14 @@
 
 <br />
 
-### Demo Screeshots
 
-![AyoubSVT Desktop Demo](./readme-images/desktopp.png "Desktop Demo")
+
 
 # AyoubSVT
 ## Nous regrettons que tous les droits soient réservés, et qu’il ne soit pas possible de modifier ou de republier le site.
  - Ce projet est uniquement à des fins éducatives et a été téléchargé afin de faciliter et de communiquer entre l’équipe.
-
+ - 
+### Demo Screeshots
 ![website](https://github.com/khabzo/ayoubsvt.com/blob/main/readme-images/desktopp.png)
 
 # MERCI DE VOTRE COMPRÉHENSION ❤️
