@@ -25,6 +25,6 @@ Nous ne collectons pas sciemment d'informations personnelles sur des enfants de 
 
  # Contactez-nous
 
-S'il te plaît (Contactez-nous)[https://ayoubsvt.com/contact-us.html] si vous avez des questions ou avez besoin de plus amples informations sur notre politique de confidentialité.
+S'il te plaît ![Contactez-nous](https://ayoubsvt.com/contact-us.html) si vous avez des questions ou avez besoin de plus amples informations sur notre politique de confidentialité.
 
 Dernière mise à jour: Septembre 9, 2023
