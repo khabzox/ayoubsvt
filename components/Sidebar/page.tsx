@@ -69,13 +69,14 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
         <Link href="/dashboard">
           <Image
-            width={176}
-            height={32}
-            src={"/images/logos/header/header-logo.png"}
+            width={45}
+            height={45}
+            src={"/images/logos/labo-favicon.ico"}
             alt="Logo"
             priority
-            className="bg-light px-1 py-1 rounded-lg"
+     //       className="bg-light px-1 py-1 rounded-lg"
           />
+          
         </Link>
 
         <button
@@ -104,7 +105,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
       <div className="no-scrollbar flex flex-col overflow-y-auto duration-300 ease-linear">
         {/* <!-- Sidebar Menu --> */}
-        <nav className="mt-5 px-4 py-4 lg:mt-9 lg:px-6">
+        <nav className="mt-4 px-4 py-1 lg:mt-9 lg:px-4">
           {/* <!-- Menu Group --> */}
           <div>
             <h3 className="mb-4 ml-4 text-sm font-semibold text-bodydark2">

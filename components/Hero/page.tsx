@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
 <section>
-    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16 lg:px-12">
         <a href="/dashboard" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
             <span className="text-xs bg-light rounded-full text-black px-4 py-1.5 mr-3">New</span>
             <span className="text-sm font-medium text-white">Virtual-ZX10 un Nouveau Labo</span> 

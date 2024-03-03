@@ -19,7 +19,7 @@ export default async function DashboardPage() {
 
   return (
         <>
-          <DefaultLayout>
+          <DefaultLayout >
             <WelDashboard />
           </DefaultLayout>
         </>
