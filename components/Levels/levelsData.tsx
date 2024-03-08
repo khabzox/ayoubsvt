@@ -1,4 +1,4 @@
-import { Brand } from "@/types/levels";
+import { Brand } from "../../types/levels";
 
 const brandData: Brand[] = [
   {
