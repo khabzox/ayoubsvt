@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { Images } from "lucide-react";
-import { cn } from "@/utils/cn";
+import { cn } from "../../utils/cn";
 import {
   IconBrightnessDown,
   IconBrightnessUp,
