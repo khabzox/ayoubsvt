@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Video from 'next-video';
 
 const About = () => {
   return (
@@ -28,10 +29,11 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2 "
             >
-              <iframe
-              src="https://www.youtube-nocookie.com//embed/22TuvwA7DpA?si=WSKRh_QXBSBrvGR0"
-              className="h-90 w-full mt-48 mb-32"
-            />
+
+          <Video 
+          src="/videos/ayoubsvtAbout.mp4"
+          accentColor="#9400ff"
+          className="h-90 w-full mt-48 mb-32"/>
             
             </motion.div>
             <motion.div

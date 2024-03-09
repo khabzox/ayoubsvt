@@ -23,6 +23,8 @@
     ]
   },
   "include": [
+    "video.d.ts",
+    "video.d.ts",
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
