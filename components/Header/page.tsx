@@ -26,16 +26,16 @@ export default async function Header() {
         <a href="/dashboard" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">VIRTULE-ZX10</a>
       </li>
       <li>
-        <a href="#caractir" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">NOS CARACTÉRISTIQUES</a>
+        <a href="#features" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">NOS CARACTÉRISTIQUES</a>
       </li>
       <li>
-        <a href="#propos" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">À PROPOS</a>
+        <a href="#about" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">À PROPOS</a>
       </li>
       <li>
         <a href="/tutoriels" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">TUTORIELS</a>
       </li>
       <li>
-        <a href="#contact" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">CONTACT</a>
+        <a href="#support" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">CONTACT</a>
       </li>
     </ul>
   </div>

@@ -60,6 +60,10 @@ const config = {
       },
     },
     extend: {
+      hueRotate: {
+        '-270': '-270deg',
+        270: '270deg',
+      },
       colors: {
         bodybg: "#fff",//done #fefbff
         light: "#fff",//done

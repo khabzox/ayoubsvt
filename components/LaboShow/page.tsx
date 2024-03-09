@@ -17,7 +17,7 @@ export function LaboShow() {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={`/images/readme-bk.png`}
+        src={`/images/windowShow.png`}
         showGradient={false}
       />
     </div>
