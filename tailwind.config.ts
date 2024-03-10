@@ -69,6 +69,7 @@ const config = {
         light: "#fff",//done
         bglabo: "#140031",//done
         bklabo:"#27005D",//done
+        footerBg: "#420299",
         current: "currentColor",
         transparent: "transparent",
         stroke: "#EEEEEE",

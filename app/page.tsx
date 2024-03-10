@@ -4,7 +4,7 @@ import Header from '../components/Header/page';
 import Feature from "../components/Features/page";
 import About from '../components/About/page';
 import CTA from '../components/CTA/page';
-import FAQ from '../components/FAQ/page';
+// import FAQ from '../components/FAQ/page';
 import Contact from '../components/Contact/page';
 import Footer from '../components/Footer/page';
 import ScrollToTop from '../components/ScrollToTop/page';
@@ -26,7 +26,7 @@ export default function Home() {
       <Feature />
       <About />
       <CTA />
-      <FAQ />
+      {/* <FAQ /> */}
       <Contact />
       <ScrollToTop />
       <Footer />
