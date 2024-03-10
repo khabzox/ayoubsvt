@@ -139,7 +139,7 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className=" max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      En cliquant sur la case à cocher, vous acceptez d'utiliser nos conditions <span><a href="#" className="hover:text-primaryy underline">Privacy Policy</a></span> Et consentez à l’utilisation des cookies dans le navigateur.
+                      En cliquant sur la case à cocher, vous acceptez d&apos;utiliser nos conditions <span><a href="#" className="hover:text-primaryy underline">Privacy Policy</a></span> Et consentez à l’utilisation des cookies dans le navigateur.
                     </label>
                   </div>
 
