@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Video from 'next-video';
 
+
 const About = () => {
   return (
     <>
@@ -31,7 +32,7 @@ const About = () => {
             >
 
           <Video 
-          src="/videos/ayoubsvtAbout.mp4"
+          src="/video/ayoubsvtAbout.mp4"
           accentColor="#9400ff"
           className="h-90 w-full mt-48 mb-32"/>
             
