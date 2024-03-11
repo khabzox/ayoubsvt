@@ -47,7 +47,7 @@ const Footer = () => {
                 </p>
                 <a
                   href="mailto:benhmiedayoub2@gmail.com"
-                  className="text-itemtitle font-medium"
+                  className="text-itemtitle font-sm text-xl"
                 >
                  benhmiedayoub2@gmail.com
                 </a>
