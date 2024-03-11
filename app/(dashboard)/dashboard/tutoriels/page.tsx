@@ -1,5 +1,5 @@
-import Header from "../../../components/Header/page";
-import { Button } from "../../../components/ui/button";
+import Header from "../../../../components/Header/page";
+import { Button } from "../../../../components/ui/button";
 
 export default function tutorielsPage() {
     return (

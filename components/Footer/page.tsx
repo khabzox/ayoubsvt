@@ -79,32 +79,32 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="https://www.ayoubsvt.com"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
                         ACCUEIL
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="/dashboard"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
                         VIRTULE-ZX10
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="/dashboard/tutoriels"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
                        TUTORIELS
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="#support"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
                         CONTACT
                       </a>
@@ -131,42 +131,42 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-withe font-medium">
-                    Support
+                    Soutien
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="#support"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
-                        Company
+                        Contact Nos
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="tel:+212 673-109815"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
-                        Press media
+                        Phone Number
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        href="mailto:benhmiedayoub2@gmail.com"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
-                        Our Blog
+                       E-mail
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primaryy"
+                        className="mb-3 inline-block hover:text-primaryho"
                       >
                         Contact Us
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </motion.div>
 
@@ -260,12 +260,12 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-8">
                 <li>
-                  <a href="#" className="hover:text-primaryy">
+                  <a href="/Privacy-Policy" className="hover:text-primaryho">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primaryy">
+                  <a href="#" className="hover:text-primaryho">
                     terms & conditions
                   </a>
                 </li>
@@ -291,7 +291,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} AyoubSVT. Programmé Par <span className="underline hover:text-primaryy " title="Programmé Par Abdelkabir Ouadoukou ( Cliquez Moi! )"><a href="https://github.com">Khabzox</a></span>
+                &copy; {new Date().getFullYear()} AyoubSVT. Programmé Par <span className="underline hover:text-primaryho " title="Programmé Par Abdelkabir Ouadoukou ( Cliquez Moi! )"><a href="https://github.com">Khabzox</a></span>
               </p>
             </motion.div>
 
@@ -317,7 +317,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                   <svg 
-                     className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryy"
+                     className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryho"
                      width="24"
                      height="24"
                      fill="none"
@@ -330,7 +330,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                   <svg 
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryy"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryho"
                       width="24"
                       height="24"
                       fill="none"
@@ -344,7 +344,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg 
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryy"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryho"
                       width="24"
                       height="24"
                       fill="none"
@@ -356,7 +356,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                   <svg 
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryy"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primaryho"
                       width="24"
                       height="24"
                       xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50">
