@@ -56,3 +56,10 @@ public/video/*
 !public/video/*.js
 !public/video/*.ts
 public/_next-video
+
+# next-video
+public/videos/*
+!public/videos/*.json
+!public/videos/*.js
+!public/videos/*.ts
+public/_next-video

@@ -1,7 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Video from 'next-video';
+import Video from "next-video";
 
 const About = () => {
   return (
@@ -30,9 +30,9 @@ const About = () => {
             >
 
           <Video 
-          src="/video/ayoubsvtAbout.mp4"
+          src="/videos/ayoubsvtVid.mp4"
           accentColor="#9400ff"
-          className="h-90 w-full mt-48 mb-32"/>
+          className="h-90 w-full mt-48 mb-32" />
             
             </motion.div>
             <motion.div
