@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "AyoubSVT | Privacy Policy",
     description: "Explore our comprehensive Privacy Policy designed to safeguard user information at AyoubSVT. Discover how we collect, use, and protect personal data on our website and media channel. Stay informed about our commitment to privacy and the latest updates to ensure a secure online experience.",
-    keywords: "",
+    keywords: "ayoubsvt.com , Privacy-Policy ayoubsvt , Privacy-Policy",
 };
 
 export default function PrivacyPolicy() {
