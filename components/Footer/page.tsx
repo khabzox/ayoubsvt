@@ -281,7 +281,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primaryho">
+                  <a href="/Term-of-Condition" className="hover:text-primaryho">
                     terms & conditions
                   </a>
                 </li>
