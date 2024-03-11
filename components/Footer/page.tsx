@@ -145,7 +145,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/Contact-US"
+                        href="/Contact-Us"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
                         Contact Nous
