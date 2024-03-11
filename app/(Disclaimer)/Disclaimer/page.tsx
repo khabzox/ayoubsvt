@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "AyoubSVT | Disclaimer",
-    description: "Découvrez les informations importantes concernant la clause de non-responsabilité sur AyoubSVT. Notre page de déni de responsabilité offre des détails transparents sur l&lsquo;utilisation du site, les garanties et les limitations. Consultez notre disclaimer pour comprendre pleinement nos conditions d'utilisation et nos engagements envers nos utilisateurs.",
+    description: "Découvrez les informations importantes concernant la clause de non-responsabilité sur AyoubSVT. Notre page de déni de responsabilité offre des détails transparents sur l&lsquo;utilisation du site, les garanties et les limitations. Consultez notre disclaimer pour comprendre pleinement nos conditions d&lsquo;utilisation et nos engagements envers nos utilisateurs.",
     keywords: "ayoubsvt.com , Disclaimer ayoubsvt , Disclaimer",
 };
 

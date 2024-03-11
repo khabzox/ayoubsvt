@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "AyoubSVT | Term of Condition",
-    description: "Découvrez les Conditions Générales d'Utilisation d'AyoubSVT. Consultez nos termes et conditions pour une utilisation claire et transparente de nos services. Protégez vos droits et comprenez les règles régissant votre interaction avec AyoubSVT. Votre confiance est notre priorité.",
+    description: "Découvrez les Conditions Générales d&lsquo;Utilisation d&lsquo;AyoubSVT. Consultez nos termes et conditions pour une utilisation claire et transparente de nos services. Protégez vos droits et comprenez les règles régissant votre interaction avec AyoubSVT. Votre confiance est notre priorité.",
     keywords: "ayoubsvt.com , Term of Condition ayoubsvt , Term of Condition",
 };
 
