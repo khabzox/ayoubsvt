@@ -137,26 +137,42 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#support"
+                        href="/About-Us"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
-                        Contact Nos
+                        À Propos
                       </a>
                     </li>
                     <li>
                       <a
-                        href="tel:+212 673-109815"
+                        href="/Contact-US"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
-                        Phone Number
+                        Contact Nous
                       </a>
                     </li>
                     <li>
                       <a
-                        href="mailto:benhmiedayoub2@gmail.com"
+                        href="/Privacy-Policy"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
-                       E-mail
+                       Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/Term-of-Condition"
+                        className="mb-3 inline-block hover:text-primaryho"
+                      >
+                       Term of Condition
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/Disclaimer"
+                        className="mb-3 inline-block hover:text-primaryho"
+                      >
+                       Disclaimer
                       </a>
                     </li>
                     {/* <li>

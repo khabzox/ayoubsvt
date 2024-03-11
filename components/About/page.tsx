@@ -143,7 +143,7 @@ const About = () => {
               </p>
               <div>
                 <a
-                  href="/Virtule-ZX10 "
+                  href="/dashboard"
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primaryy dark:text-white dark:hover:text-primary"
                 >
                   <span className="duration-300 group-hover:pr-2">
