@@ -7,7 +7,7 @@ import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { frFR } from "@clerk/localizations";
 import GoogleAnalytics from "../components/GoogleAnalytics/GoogleAnalytics";
-
+import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -22,6 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='fr'>
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4744380504125119"
+     ></script>
+      </head>
       <body className={`dark:bg-light ${inter.className}`}>
         <ClerkProvider localization={frFR}>
           {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
