@@ -32,7 +32,7 @@ export default async function Header() {
         <a href="#about" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">À PROPOS</a>
       </li>
       <li>
-        <a href="/tutoriels" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">TUTORIELS</a>
+        <a href="https://khabzox.github.io/ayoubsvt/html/Niveau-scolaire" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">TUTORIELS</a>
       </li>
       <li>
         <a href="#support" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">CONTACT</a>
