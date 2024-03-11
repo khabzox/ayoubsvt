@@ -29,9 +29,9 @@ export default function Home() {
       {/* <FAQ /> */}
       <Contact />
       <ScrollToTop />
+      </main>
       <Footer />
       {/* <LaboShow /> */}
-    </main>
     </>
   );
 } 

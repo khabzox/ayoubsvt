@@ -29,7 +29,7 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="fixed bottom-8 right-8 z-[99]">
+    <section className="fixed bottom-8 right-8 z-[99]">
       {isVisible && (
         <div
           onClick={scrollToTop}
@@ -40,6 +40,6 @@ export default function ScrollToTop() {
           <span className="sr-only">scroll to top</span>
         </div>
       )}
-    </div>
+    </section>
   );
 }
