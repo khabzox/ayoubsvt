@@ -2,6 +2,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import GoogleAdsense from "../components/GoogleAdsense/GoogleAdsense";
 import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { frFR } from "@clerk/localizations";
@@ -32,6 +33,7 @@ export default function RootLayout({
           <SpeedInsights />
         </ClerkProvider>
       </body>
+      <GoogleAdsense pId="（AdsenseのID）" />
     </html>
   );
 }  
