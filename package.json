@@ -3,7 +3,7 @@
   "version": "7.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev & npx next-video sync -w",
+    "dev": "next dev & npx next-video sync -w & json-server --watch public/data/db.json -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
