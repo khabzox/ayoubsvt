@@ -13,6 +13,7 @@ export default async function PostsPage() {
 	const postsJSX = posts.map((post) => {
 		return (
 			<Link
+			    key={post.id}
 				href={`/blog/posts/${post.id}`}
 				style={{
 					width: "70%",
