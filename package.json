@@ -3,7 +3,7 @@
   "version": "7.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev & npx next-video sync -w & json-server --watch public/data/db.json -p 3001",
+    "dev": "next dev & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -29,6 +29,7 @@
     "lucide-react": "^0.334.0",
     "markdown-to-jsx": "^7.4.1",
     "next": "14.1.0",
+    "next-pwa": "^5.6.0",
     "next-video": "^0.8.6",
     "next-videos": "1.4.1",
     "react": "^18.2.0",

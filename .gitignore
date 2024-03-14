@@ -37,29 +37,15 @@ next-env.d.ts
 node_modules
 
 # next-video
-videos/*
-!videos/*.json
-!videos/*.js
-!videos/*.ts
+public/vid/*
+!public/vid/*.json
+!public/vid/*.js
+!public/vid/*.ts
 public/_next-video
 
 # next-video
-public/videos/*
-!public/videos/*.json
-!public/videos/*.js
-!public/videos/*.ts
-public/_next-video
-
-# next-video
-public/video/*
-!public/video/*.json
-!public/video/*.js
-!public/video/*.ts
-public/_next-video
-
-# next-video
-public/videos/*
-!public/videos/*.json
-!public/videos/*.js
-!public/videos/*.ts
+vid/*
+!vid/*.json
+!vid/*.js
+!vid/*.ts
 public/_next-video
