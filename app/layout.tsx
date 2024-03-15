@@ -26,6 +26,7 @@ export default function RootLayout({
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4744380504125119"
      ></script>
       <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#9400FF">
       </head>
       <body className={`dark:bg-light ${inter.className}`}>
         <ClerkProvider localization={frFR}>
