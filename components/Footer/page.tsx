@@ -307,7 +307,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} AyoubSVT. Programmé Par <span className="underline hover:text-primaryho " title="Programmé Par Abdelkabir Ouadoukou ( Cliquez Moi! )"><a href="https://github.com">Khabzox</a></span>
+                &copy; {new Date().getFullYear()} AyoubSVT. Programmé Par <span className="underline hover:text-primaryho " title="Programmé Par Abdelkabir Ouadoukou ( Cliquez Moi! )"><a href="https://github.com/khabzox" target="_blank">Khabzox</a></span>
               </p>
             </motion.div>
 

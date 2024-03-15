@@ -28,7 +28,7 @@ export default function RootLayout({
      ></script>
       <link rel="manifest" href="/manifest.json" />
       </head>
-      <body>
+      <body className={`dark:bg-light ${inter.className}`}>
         <ClerkProvider localization={frFR}>
           {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
             <GoogleAnalytics ga_id= 
