@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: "AyoubSVT | SCIENCES DES SVT",
   description: "Un site ciblé spécialisé dans les sciences de la vie et de la terre. Il propose un laboratoire virtuel et des cours pour tous les niveaux pour aider les enseignants et les élèves à développer la méthode d'apprentissage de la matière !",
+  themeColor: "#9400FF"
 };
 
 export default function RootLayout({
@@ -26,7 +27,6 @@ export default function RootLayout({
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4744380504125119"
      ></script>
       <link rel="manifest" href="/manifest.json" />
-      <meta name="theme-color" content="#9400FF">
       </head>
       <body className={`dark:bg-light ${inter.className}`}>
         <ClerkProvider localization={frFR}>
