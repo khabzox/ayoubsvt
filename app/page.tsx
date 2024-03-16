@@ -9,6 +9,7 @@ import Contact from '../components/Contact/page';
 import Footer from '../components/Footer/page';
 import ScrollToTop from '../components/ScrollToTop/page';
 import Image from 'next/image';
+
 // import { LaboShow } from "../components/LaboShow/page";
 // import { GoogleGeminiEffectDemo } from "@/components/GoogleGeminiEffectDemo/page";
 // <GoogleGeminiEffectDemo />
