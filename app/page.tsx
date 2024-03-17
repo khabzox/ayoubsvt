@@ -9,6 +9,7 @@ import Contact from '../components/Contact/page';
 import Footer from '../components/Footer/page';
 import ScrollToTop from '../components/ScrollToTop/page';
 import Image from 'next/image';
+import HeadAD from '../components/HeadAD/page';
 
 // import { LaboShow } from "../components/LaboShow/page";
 // import { GoogleGeminiEffectDemo } from "@/components/GoogleGeminiEffectDemo/page";
@@ -20,6 +21,7 @@ export default function Home() {
       <img src='./favicon.ico' height={90} width={90} className='inline-flex'></img>
       <h1 className='mt-5'>En cours de reconstruction...</h1>
     </div> */}
+    <HeadAD />
     <Header /> 
     <main>
       <Hero />

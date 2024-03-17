@@ -31,7 +31,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         viewport={{ once: true }}
         className="animate_top mx-auto text-center"
       >
-        <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border">
+        <div className="mb-4 inline-block rounded-full px-4.5 py-1.5">
         <a className="font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 items-center py-1 px-1 pr-4 pl-4 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
             <span className="text-sm font-medium text-white">{title}</span> 
         </a>
