@@ -1,7 +1,7 @@
 {
     "name": "AyoubSVT",
     "short_name": "AyoubSVT",
-    "theme_color": "#1f0452",
+    "theme_color": "#420299",
     "background_color": "#fff",
     "start_url": "/",
     "display": "standalone",
