@@ -1,7 +1,7 @@
 import { UserButton, auth } from '@clerk/nextjs';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import "../css/header/style.css"
 export default async function Header() {
   const { userId } = auth();
 
@@ -20,24 +20,24 @@ export default async function Header() {
           </Link>
           {/* Show navbar links when screen width is greater than 1277px */}
           <div className={`items-center justify-between w-full md:flex md:w-auto md:order-0 ${'hidden lg:flex'}`} id="navbar-cta">
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 devLiItemes">
               <li>
-                <a href="https://www.AyoubSVT.com/" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">ACCUEIL</a>
+                <Link href="https://www.AyoubSVT.com/" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">ACCUEIL</Link>
               </li>
               <li>
-                <a href="/dashboard" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">VIRTULE-ZX10</a>
+                <Link href="/dashboard" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">VIRTULE-ZX10</Link>
               </li>
               <li>
-                <a href="#features" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">NOS CARACTÉRISTIQUES</a>
+                <Link href="#features" className="block py-2 px-3 md:p-0 text-primaryy md:hover:text-primaryho">NOS CARACTÉRISTIQUES</Link>
               </li>
               <li>
-                <a href="#about" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">À PROPOS</a>
+                <Link href="#about" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">À PROPOS</Link>
               </li>
               <li>
-                <a href="https://khabzox.github.io/ayoubsvt/html/Niveau-scolaire" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">TUTORIELS</a>
+                <Link href="https://khabzox.github.io/ayoubsvt/html/Niveau-scolaire" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">TUTORIELS</Link>
               </li>
               <li>
-                <a href="#support" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">CONTACT</a>
+                <Link href="#support" className="block py-2 px-3 md:p-0 text-primaryy  md:hover:text-primaryho">CONTACT</Link>
               </li>
             </ul>
           </div>
@@ -58,10 +58,8 @@ export default async function Header() {
               </div>
             )} */}
               <div className='flex gap-4 items-baseline underline'>
-                <Link href='/dashboard'>
-                  <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                <Link href='/dashboard' className='text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'>
                     Dashboard
-                  </button>
                 </Link>
               </div>
           </div>

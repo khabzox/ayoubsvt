@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import {notFound} from "next/navigation"
+import Link from 'next/link';
 export const metadata: Metadata = {
   title: "Error Page - Solid SaaS Boilerplate",
   description: "This is Error page for Solid Pro",
@@ -27,7 +28,7 @@ const Custom404 = () => {
           does not exist.
         </p>
 
-        <a
+        <Link
           href="/"
           className="inline-flex items-center gap-2.5 rounded-full bg-primaryho px-6 py-3 font-medium text-white duration-300 ease-in-out"
         >
@@ -45,7 +46,7 @@ const Custom404 = () => {
               fill=""
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </section>
   );

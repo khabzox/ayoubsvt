@@ -1,0 +1,11 @@
+@media only screen and (max-width: 490px) {
+    .text-sizeAD{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .text-sizeAD{
+        font-size: 11px;
+    }
+}

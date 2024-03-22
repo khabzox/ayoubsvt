@@ -9,12 +9,12 @@ export const Upgrade = () => {
             display={'flex'}
             alignItems="center"
             gap={2}
-            sx={{ m: 3, p: 3, bgcolor: `${'primary.light'}`, borderRadius: '8px' }}
+            sx={{ m: 3, p: 3, bgcolor: '#f0dcff', borderRadius: '8px' }}
         >
             <>
                 <Box>
                     <Typography variant="h6" mb={1}>Unlimited Access</Typography>
-                    <Button color="primary" target="_blank" disableElevation component={Link} href="https://adminmart.com/product/modernize-next-js-admin-dashboard" variant="contained" aria-label="logout" size="small">
+                    <Button className='bg-primaryy hover:bg-[#ac39ff]' target="_blank" disableElevation component={Link} href="https://adminmart.com/product/modernize-next-js-admin-dashboard" variant="contained" aria-label="logout" size="small">
                         Upgrade
                     </Button>
                 </Box>

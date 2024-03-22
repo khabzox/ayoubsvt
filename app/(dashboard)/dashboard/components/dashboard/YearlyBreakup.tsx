@@ -10,8 +10,8 @@ import DashboardCard from '../shared/DashboardCard';
 const YearlyBreakup = () => {
   // chart color
   const theme = useTheme();
-  const primary = theme.palette.primary.main;
-  const primarylight = '#ecf2ff';
+  const primaryy = '#9400FF';
+  const primaryylight = '#ac39ff';
   const successlight = theme.palette.success.light;
 
   // chart
@@ -25,7 +25,7 @@ const YearlyBreakup = () => {
       },
       height: 155,
     },
-    colors: [primary, primarylight, '#F9F9FD'],
+    colors: [primaryy, primaryylight, '#F9F9FD'],
     plotOptions: {
       pie: {
         startAngle: 0,
@@ -84,7 +84,7 @@ const YearlyBreakup = () => {
           <Stack spacing={3} mt={5} direction="row">
             <Stack direction="row" spacing={1} alignItems="center">
               <Avatar
-                sx={{ width: 9, height: 9, bgcolor: primary, svg: { display: 'none' } }}
+                sx={{ width: 9, height: 9, bgcolor: primaryy, svg: { display: 'none' } }}
               ></Avatar>
               <Typography variant="subtitle2" color="textSecondary">
                 2022
@@ -92,7 +92,7 @@ const YearlyBreakup = () => {
             </Stack>
             <Stack direction="row" spacing={1} alignItems="center">
               <Avatar
-                sx={{ width: 9, height: 9, bgcolor: primarylight, svg: { display: 'none' } }}
+                sx={{ width: 9, height: 9, bgcolor: primaryylight, svg: { display: 'none' } }}
               ></Avatar>
               <Typography variant="subtitle2" color="textSecondary">
                 2023

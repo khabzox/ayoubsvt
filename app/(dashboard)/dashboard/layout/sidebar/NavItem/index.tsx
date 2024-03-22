@@ -6,7 +6,7 @@ import {
   List,
   styled,
   ListItemText,
-  useTheme,
+  // useTheme,
   ListItemButton,
 } from "@mui/material";
 import Link from "next/link";
@@ -32,7 +32,7 @@ interface ItemType {
 
 const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
   const Icon = item.icon;
-  const theme = useTheme();
+  // const theme = useTheme();
   const itemIcon = <Icon stroke={1.5} size="1.3rem" />;
 
   const ListItemStyled = styled(ListItem)(() => ({
@@ -43,18 +43,18 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
       padding: "8px 10px",
       borderRadius: "8px",
       backgroundColor: level > 1 ? "transparent !important" : "inherit",
-      color: theme.palette.text.secondary,
+      color: '#27005D',
       paddingLeft: "10px",
       "&:hover": {
-        backgroundColor: theme.palette.primary.light,
-        color: theme.palette.primary.main,
+        backgroundColor: '#f0dcff',
+        color: '#9400FF',
       },
       "&.Mui-selected": {
-        color: "white",
-        backgroundColor: theme.palette.primary.main,
+        color: '#fff',
+        backgroundColor: '#9400FF',
         "&:hover": {
-          backgroundColor: theme.palette.primary.main,
-          color: "white",
+          backgroundColor: '#9400FF',
+          color: '#fff',
         },
       },
     },

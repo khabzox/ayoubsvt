@@ -18,7 +18,7 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
 
   const AppBarStyled = styled(AppBar)(({ theme }) => ({
     boxShadow: 'none',
-    background: theme.palette.background.paper,
+    background: '#fff',
     justifyContent: 'center',
     backdropFilter: 'blur(4px)',
     [theme.breakpoints.up('lg')]: {
@@ -27,7 +27,7 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
   }));
   const ToolbarStyled = styled(Toolbar)(({ theme }) => ({
     width: '100%',
-    color: theme.palette.text.secondary,
+    color: 'theme.palette.text.secondary',
   }));
   return (
     <AppBarStyled position="sticky" color="default">
@@ -54,14 +54,14 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
           aria-controls="msgs-menu"
           aria-haspopup="true"
         >
-          <Badge variant="dot" color="primary">
+          <Badge variant="dot">
             <IconBellRinging size="21" stroke="1.5" />
           </Badge>
 
         </IconButton>
         <Box flexGrow={1} />
         <Stack spacing={1} direction="row" alignItems="center">
-          <Button variant="contained" disableElevation color="primary"  target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard">
+          <Button variant="contained" className='bg-primaryy hover:bg-[#ac39ff] shadow-none active:shadow-none'  target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard">
             Upgrade to Pro
           </Button>
           

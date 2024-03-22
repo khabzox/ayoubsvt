@@ -18,7 +18,7 @@ const NavGroup = ({ item }: ItemType) => {
       fontWeight: '700',
       marginTop: theme.spacing(3),
       marginBottom: theme.spacing(0),
-      color: theme.palette.text.primary,
+      color: '#27005D',
       lineHeight: '26px',
       padding: '3px 12px',
     }),
