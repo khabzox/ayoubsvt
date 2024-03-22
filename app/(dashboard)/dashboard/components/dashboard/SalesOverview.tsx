@@ -143,7 +143,7 @@ const SalesOverview = () => {
             </Select>
         }>
             <Chart
-                options={state.options}
+                options={state}
                 series={state.series}
                 type="bar"
                 height="370px"
