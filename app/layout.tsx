@@ -40,7 +40,7 @@ export default function RootLayout({
           <SpeedInsights />
         </ClerkProvider>
       </body>
-      <GoogleAdsense pId="G-627E1WSHQE" />
+      <GoogleAdsense pId="4744380504125119" />
     </html>
   );
 }  
