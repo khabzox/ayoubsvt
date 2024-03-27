@@ -25,8 +25,8 @@ export default function RootLayout({
   return (
     <html lang='fr'>
       <head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4744380504125119"
-     ></script>
+        <meta name="google-adsense-account" content="ca-pub-4744380504125119">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4744380504125119" crossorigin="anonymous"></script>
       <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`dark:bg-light ${inter.className}`}>
