@@ -75,3 +75,10 @@
     @apply bg-background text-foreground;
   }
 }
+.image-text{
+  background-image: url(/images/laboImages/tutoriels/TextColorBk.jpg);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  filter: hue-rotate(45deg);
+}

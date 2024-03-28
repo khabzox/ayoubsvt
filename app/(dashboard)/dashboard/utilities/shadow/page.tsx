@@ -1,7 +1,7 @@
 'use client';
 import { Paper, Box, Grid } from '@mui/material';
-import PageContainer from '../../components/container/PageContainer';
-import DashboardCard from '../../components/shared/DashboardCard';
+import PageContainer from '../../_components/container/PageContainer';
+import DashboardCard from '../../_components/shared/DashboardCard';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 
 

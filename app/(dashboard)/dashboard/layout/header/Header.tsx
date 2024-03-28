@@ -54,16 +54,16 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
           aria-controls="msgs-menu"
           aria-haspopup="true"
         >
-          <Badge variant="dot">
+          {/* <Badge variant="dot">
             <IconBellRinging size="21" stroke="1.5" />
-          </Badge>
+          </Badge> */}
 
         </IconButton>
         <Box flexGrow={1} />
         <Stack spacing={1} direction="row" alignItems="center">
-          <Button variant="contained" className='bg-primaryy hover:bg-[#ac39ff] shadow-none active:shadow-none'  target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard">
+          {/* <Button variant="contained" className='bg-primaryy hover:bg-[#ac39ff] shadow-none active:shadow-none'  target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard">
             Upgrade to Pro
-          </Button>
+          </Button> */}
           
           <UserButton afterSignOutUrl='/' />
         </Stack>
