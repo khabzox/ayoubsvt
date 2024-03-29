@@ -9,9 +9,10 @@ import ProductPerformance from './_components/dashboard/ProductPerformance';
 import Blog from './_components/dashboard/Blog';
 import MonthlyEarnings from './_components/dashboard/MonthlyEarnings';
 
+
 const Dashboard = () => {
   return (
-    <PageContainer title="Dashboard" description="this is Dashboard">
+    <PageContainer title="Dashboard | laboo" description="this is Dashboard">
       <Box>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>

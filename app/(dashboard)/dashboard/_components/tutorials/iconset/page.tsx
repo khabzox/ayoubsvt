@@ -11,6 +11,53 @@ export function FolderIcon(props) {
     )
 }
 
+export function FoldersIcon(props) {
+  return (
+    <Image 
+    src={'/images/laboImages/tutoriels/icon/folders.png'}
+    width={'34'} 
+    height={'34'}
+    alt={'img'}
+    />
+  )
+}
+
+import React from 'react';
+
+export function fileTypeIcon(extension) {
+  let iconPath = '';
+
+  switch (extension) {
+    case 'pdf':
+      iconPath = '/images/laboImages/tutoriels/icon/pdf.png';
+      break;
+    case 'doc':
+    case 'docx':
+      iconPath = '/images/laboImages/tutoriels/icon/doc.png';
+      break;
+    case 'ppt':
+      iconPath = '/images/laboImages/tutoriels/icon/ppt.png';
+      break;
+    case 'png':
+    case 'jpg':
+    case 'jpeg':
+      iconPath = '/images/laboImages/tutoriels/icon/img.png';
+      break;
+    default:
+      iconPath = '/images/laboImages/tutoriels/icon/img.png';
+      break;
+  }
+
+  return (
+    <Image 
+      src={iconPath}
+      width={34} 
+      height={34}
+      alt={'File icon'}
+    />
+  );
+}
+
   
 export function HomeIcon(props) {
     return (
