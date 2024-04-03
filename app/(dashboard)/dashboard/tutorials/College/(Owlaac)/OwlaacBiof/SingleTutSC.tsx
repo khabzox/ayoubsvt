@@ -7,7 +7,7 @@ import { FolderIcon, HomeIcon, FoldersIcon, fileTypeIcon } from '../../../../_co
 
 
 const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
-  const { title, SrcFileType, hrafDO, module1, module2, module3, module4, module5, ex1, ex2, ex3} = TutorialSec;
+  const { title, SrcFileType, name, hrafDO, module1, module2, module3, module4, ex1, ex2, ex3} = TutorialSec;
 
   return (
     <>
@@ -34,7 +34,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
           <Link href={hrafDO} download>
@@ -50,7 +50,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
           <Link href={hrafDO} download>
@@ -66,7 +66,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
           <Link href={hrafDO} download>
@@ -82,7 +82,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
           <Link href={hrafDO} download>
@@ -92,21 +92,6 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
         </div>
       </div>
 
-      <div className="space-y-4 mt-3">
-        <div className="flex items-center space-x-3">
-          <Image 
-          src={SrcFileType}
-          height={24}
-          width={24}
-          alt='hi'
-          />
-          <span className="text-sm font-medium">
-            <Link href={hrafDO} download>
-             {module5}
-            </Link>
-          </span>
-        </div>
-      </div>
       
       <div className="space-y-4 mt-3">
         <div className="flex items-center space-x-3">
@@ -122,7 +107,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
             <Link href={hrafDO} download>
@@ -138,7 +123,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
             <Link href={hrafDO} download>
@@ -154,7 +139,7 @@ const SingleTuSC = ({ TutorialSec }: { TutorialSec: TutorialSec }) => {
           src={SrcFileType}
           height={24}
           width={24}
-          alt='hi'
+          alt={name}
           />
           <span className="text-sm font-medium">
             <Link href={hrafDO} download>

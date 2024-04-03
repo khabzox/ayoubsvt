@@ -1,6 +1,10 @@
 const Loading = () =>{
     return(
-        <div>Dash Loading</div>
+        <>
+            <div className="flex justify-center">
+                <h1>Loading</h1>
+            </div>
+        </>
     )
 }
 
