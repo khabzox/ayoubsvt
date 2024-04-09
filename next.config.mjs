@@ -1,7 +1,6 @@
-import withPWA from 'next-pwa';
-import { withNextVideo } from 'next-video/process';
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   ...withNextVideo(withPWA()),
-  reactStrictMode: true
 };
+
+export default nextConfig;
