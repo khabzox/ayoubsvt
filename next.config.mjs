@@ -1,6 +1,10 @@
+const withPWA = require('next-pwa')({
+  dest: 'public'
+})
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  ...withNextVideo(withPWA()),
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = withPWA(nextConfig);
