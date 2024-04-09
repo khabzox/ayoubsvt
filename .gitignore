@@ -36,16 +36,3 @@ yarn-error.log*
 next-env.d.ts
 node_modules
 
-# next-video
-public/vid/*
-!public/vid/*.json
-!public/vid/*.js
-!public/vid/*.ts
-public/_next-video
-
-# next-video
-vid/*
-!vid/*.json
-!vid/*.js
-!vid/*.ts
-public/_next-video

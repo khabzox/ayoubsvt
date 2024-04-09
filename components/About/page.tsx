@@ -30,10 +30,10 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2 "
             >
 
-          <Video 
-          src="/vid/ayoubsvtVid.mp4"
+          {/* <Video 
+          src="."
           accentColor="#9400ff"
-          className="h-90 w-full mt-48 mb-32" />
+          className="h-90 w-full mt-48 mb-32" /> */}
             
             </motion.div>
             <motion.div
@@ -155,7 +155,7 @@ const About = () => {
                     viewBox="0 0 14 14"
                     fill="currentColor"
                   >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
+                    <path fillRule="evenodd" d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
                   </svg>
                 </a>
               </div>
@@ -181,13 +181,7 @@ const About = () => {
               <Image
                 src="/images/about/showLaboF.png"
                 alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="/images/about/showLaboF.png"
-                alt="About"
-                className="hidden dark:block"
+                sizes="(max-width: 486px) 100vw"
                 fill
               />
             </motion.div>

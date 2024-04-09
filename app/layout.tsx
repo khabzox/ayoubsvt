@@ -25,14 +25,13 @@ export default function RootLayout({
   return (
     <html lang='fr'>
       <head>
+      {/* <script src="http://localhost:3000"></script> */}
       <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`dark:bg-light ${inter.className}`}>
         <ClerkProvider localization={frFR}>
           {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
-            <GoogleAnalytics ga_id= 
-            {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
-          ) : null}
+            <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />) : null}
           {children}
           <Analytics />
           <SpeedInsights />

@@ -31,6 +31,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           className="opacity-65 transition-all duration-300 hover:opacity-100"
           src={image}
           alt={name}
+          sizes="(max-width: 98px) 100vw"
           loading="lazy"
           fill
         />

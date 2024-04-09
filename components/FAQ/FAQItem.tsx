@@ -22,6 +22,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
 
           {activeFaq === id ? (
             <svg
+              fillRule="evenodd"
               width="18"
               height="4"
               viewBox="0 0 18 4"
@@ -35,6 +36,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
             </svg>
           ) : (
             <svg
+              fillRule="evenodd"
               width="18"
               height="18"
               viewBox="0 0 18 18"

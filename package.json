@@ -1,13 +1,12 @@
 {
   "name": "ayoubsvt",
-  "version": "7.0.1",
+  "version": "0.2.1",
   "private": true,
   "scripts": {
-    "dev": "next dev & npx next-video sync -w",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "serve-json": "json-server --watch public/data/db.json -p 3001"
+    "lint": "next lint"
   },
   "dependencies": {
     "@clerk/localizations": "^1.26.15",
@@ -15,9 +14,6 @@
     "@ctrl/react-adsense": "^1.7.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@mui/lab": "^5.0.0-alpha.168",
-    "@mui/material": "^5.15.13",
-    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
     "@nextui-org/react": "^2.2.9",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
@@ -31,14 +27,11 @@
     "flowbite": "^2.3.0",
     "framer-motion": "^11.0.8",
     "gray-matter": "^4.0.3",
-    "json-server": "^1.0.0-alpha.23",
     "lucide-react": "^0.334.0",
     "markdown-to-jsx": "^7.4.1",
     "next": "14.1.0",
     "next-pwa": "^5.6.0",
     "next-themes": "^0.3.0",
-    "next-video": "^0.8.6",
-    "next-videos": "1.4.1",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
