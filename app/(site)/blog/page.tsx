@@ -18,7 +18,7 @@ export default function Blog() {
                   March 19, 2023
                 </Link>
                 <h1 className="text-3xl font-bold tracking-tighter lg:text-5xl xl:text-6xl/none">
-                  The Complete Guide to the Best Web Components
+                Étude de l'énergie renouvelable pour répondre aux besoins énergétiques mondiaux.
                 </h1>
               </div>
               <div className="space-y-4 text-gray-500 dark:text-gray-400">
