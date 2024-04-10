@@ -139,7 +139,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <Link
-                        href="/About-Us"
+                        href="/about-us"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
                         À Propos
@@ -147,7 +147,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        href="/Contact-Us"
+                        href="/contact-us"
                         className="mb-3 inline-block hover:text-primaryho"
                       >
                         Contact Nous
