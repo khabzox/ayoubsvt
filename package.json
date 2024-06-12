@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/localizations": "^2.4.4",
-    "@clerk/nextjs": "^5.1.4",
+    "@clerk/localizations": "^1.26.15",
+    "@clerk/nextjs": "^4.29.7",
     "@ctrl/react-adsense": "^1.7.0",
     "@pdftron/webviewer": "^10.9.0",
     "@radix-ui/react-label": "^2.0.2",
