@@ -40,8 +40,12 @@
 
 /* dashboard */
 
-.textS3ro{
+.textS3ro {
   font-size: 8px;
+}
+
+.designBox {
+  box-shadow: 0px 0px 2px #28005b;
 }
 
 @layer base {
