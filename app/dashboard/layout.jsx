@@ -9,12 +9,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <div className="flex flex-col flex-1">
-        <Header />
-        {children}
-      </div>
-    </div>
+    <html lang="fr">
+      <body className="flex h-screen">
+        <Sidebar />
+        <div className="flex flex-col flex-1">
+          <Header />
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }

@@ -1,4 +1,4 @@
-import { FlaskRound, BookMarked, MessageCircleMore, FilePenLine } from "lucide-react";
+import { FlaskRound, BookMarked, MessageCircleMore, FilePenLine, PenTool } from "lucide-react";
 
 export const SidebarData = [
     {
@@ -24,5 +24,11 @@ export const SidebarData = [
         linkTo: "/dashboard/tutorials",
         iconTag: <BookMarked />,
         title: "Tutoriels",
+    },
+    {
+        id: 5,
+        linkTo: "/dashboard/board",
+        iconTag: <PenTool />,
+        title: "Conseil",
     }
 ]
