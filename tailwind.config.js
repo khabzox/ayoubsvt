@@ -26,6 +26,7 @@ module.exports = {
         primtextHove: "",
         primLabo: "#1E0044",
         primLaboHov: "#28005B",
+        bgHov: "#B377FF",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

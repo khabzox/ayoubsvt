@@ -6,9 +6,27 @@
   z-index: 2;
 }
 
+@media (max-width: 950px) {
+  .gridScr {
+    display: grid !important;
+    max-height: 80vh !important;
+
+  }
+}
+
+@media (max-width: 476px) {
+  .gridScr {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .HeroImg {
     display: none;
+  }
+
+  .wmiya {
+    width: 100% !important;
   }
 }
 
@@ -28,7 +46,7 @@
 }
 
 /* text */
-.cl-internal-15amzqo{
+.cl-internal-15amzqo {
   color: #9400FF !important;
   font-weight: 600 !important;
 }
