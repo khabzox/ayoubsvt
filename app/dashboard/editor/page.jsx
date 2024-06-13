@@ -28,7 +28,7 @@ export default function HomePage() {
       <div
         className="webviewer"
         ref={viewer}
-        style={{ height: "90.774299835255354vh" }}
+        style={{ height: "100vh" }}
       ></div>
     </div>
   );
