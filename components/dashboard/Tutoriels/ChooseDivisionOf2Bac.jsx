@@ -15,7 +15,7 @@ export function ChooseDivisionOf2Bac(path, prop1, prop2, prop3) {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                <Link href={"/dashboard/tutorials/1BAC-SM"}>
+                <Link href={"/dashboard/tutorials/2BAC-SMA"}>
                   {prop1}
                 </Link>
               </div>
@@ -23,7 +23,7 @@ export function ChooseDivisionOf2Bac(path, prop1, prop2, prop3) {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                <Link href={"/dashboard/tutorials/1BAC-SX"}>
+                <Link href={"/dashboard/tutorials/2BAC-SP"}>
                   {prop2}
                 </Link>
               </div>
@@ -31,7 +31,7 @@ export function ChooseDivisionOf2Bac(path, prop1, prop2, prop3) {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                <Link href={"/dashboard/tutorials/1BAC-SX"}>
+                <Link href={"/dashboard/tutorials/2BAC-SVT"}>
                   {prop3}
                 </Link>
               </div>

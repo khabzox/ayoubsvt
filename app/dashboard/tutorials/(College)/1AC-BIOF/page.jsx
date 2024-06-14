@@ -833,7 +833,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                Contrôle Semester 1
+                Contrôle Semester 2
               </div>
               <div>
                 <h2 className="font-bold">Contrôle N°1:</h2>

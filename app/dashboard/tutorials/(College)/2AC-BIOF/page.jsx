@@ -674,7 +674,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                        La reproduction chez les végétaux ( modèle 3 )
+                      La reproduction chez les végétaux ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -813,7 +813,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              L&apos;hérédité humaine
+                L&apos;hérédité humaine
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -839,7 +839,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                       L&apos;hérédité humaine ( modèle 2 )
+                      L&apos;hérédité humaine ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -877,7 +877,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                Contrôle Semester 1
+                Contrôle Semester 2
               </div>
               <div>
                 <h2 className="font-bold">Contrôle N°1:</h2>

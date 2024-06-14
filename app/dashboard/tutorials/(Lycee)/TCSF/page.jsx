@@ -16,7 +16,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                la sortie ecologiques
+                La sortie ecologiques
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -30,7 +30,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      la sortie ecologiques ( modèle 1 )
+                      La sortie ecologiques ( modèle 1 )
                     </Link>
                   </li>
                   <li>
@@ -42,7 +42,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      la sortie ecologiques ( modèle 2 )
+                      La sortie ecologiques ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -54,7 +54,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      L&apos;exploration des milieux naturels ( modèle 3 )
+                      La sortie ecologiques ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -706,7 +706,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Exercice ( modèle 1 )
+                      Exercice ( modèle 2 )
                     </Link>
                   </li>
                 </ul>
@@ -921,7 +921,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                Contrôle Semester 1
+                Contrôle Semester 2
               </div>
               <div>
                 <h2 className="font-bold">Contrôle N°1:</h2>

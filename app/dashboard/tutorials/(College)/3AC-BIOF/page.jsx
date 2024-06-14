@@ -9,7 +9,7 @@ export default function tutorialsPageLevel() {
           <div className="w-full p-4 costumMobileScrenn">
             <div className="bg-yellow-400 p-2 mb-4 rounded-md">
               <button className="bg-yellow-400 p-2 rounded-md">
-              Sciences de la vie et de la terre pour la 3 année biof
+                Sciences de la vie et de la terre pour la 3 année biof
               </button>
             </div>
 
@@ -29,7 +29,8 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      {"les aliments et l’éducation nutritionnelle"} ( modèle 1 )
+                      {"les aliments et l’éducation nutritionnelle"} ( modèle 1
+                      )
                     </Link>
                   </li>
                   <li>
@@ -41,7 +42,8 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                     {"les aliments et l’éducation nutritionnelle"} ( modèle 2 )
+                      {"les aliments et l’éducation nutritionnelle"} ( modèle 2
+                      )
                     </Link>
                   </li>
                   <li>
@@ -53,7 +55,8 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                     {"les aliments et l’éducation nutritionnelle"} ( modèle 3 )
+                      {"les aliments et l’éducation nutritionnelle"} ( modèle 3
+                      )
                     </Link>
                   </li>
                 </ul>
@@ -103,7 +106,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              La digestion et absorption
+                La digestion et absorption
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -191,7 +194,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              La respiration
+                La respiration
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -255,7 +258,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              Le sang et la circulation sanguine
+                Le sang et la circulation sanguine
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -269,8 +272,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Le sang et la circulation sanguine (
-                      modèle 1 )
+                      Le sang et la circulation sanguine ( modèle 1 )
                     </Link>
                   </li>
                   <li>
@@ -282,8 +284,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Le sang et la circulation sanguine (
-                      modèle 2 )
+                      Le sang et la circulation sanguine ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -295,8 +296,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Le sang et la circulation sanguine (
-                      modèle 3 )
+                      Le sang et la circulation sanguine ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -334,7 +334,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                    {"L’excrétion urinaire"}
+                {"L’excrétion urinaire"}
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -348,8 +348,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      {"L’excrétion urinaire"} (
-                      modèle 1 )
+                      {"L’excrétion urinaire"} ( modèle 1 )
                     </Link>
                   </li>
                   <li>
@@ -361,8 +360,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      {"L’excrétion urinaire"} (
-                      modèle 2 )
+                      {"L’excrétion urinaire"} ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -374,8 +372,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                     {"L’excrétion urinaire"} (
-                      modèle 3 )
+                      {"L’excrétion urinaire"} ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -532,7 +529,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              Le système nerveux
+                Le système nerveux
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -620,7 +617,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-{"L'appareil musculaire"}
+                {"L'appareil musculaire"}
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -646,7 +643,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                 {"L'appareil musculaire"} ( modèle 2 )
+                      {"L'appareil musculaire"} ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -658,7 +655,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-               {"L'appareil musculaire"} ( modèle 3 )
+                      {"L'appareil musculaire"} ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -708,7 +705,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              Les microorganismes
+                Les microorganismes
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -722,8 +719,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Les microorganismes (
-                      modèle 1 )
+                      Les microorganismes ( modèle 1 )
                     </Link>
                   </li>
                   <li>
@@ -735,8 +731,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Les microorganismes (
-                      modèle 2 )
+                      Les microorganismes ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -748,8 +743,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                      Les microorganismes (
-                      modèle 3 )
+                      Les microorganismes ( modèle 3 )
                     </Link>
                   </li>
                 </ul>
@@ -775,7 +769,7 @@ export default function tutorialsPageLevel() {
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-{"L'immunologie"}
+                {"L'immunologie"}
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -801,7 +795,7 @@ export default function tutorialsPageLevel() {
                       target="_blank"
                       download
                     >
-                     {"L'immunologie"} ( modèle 2 )
+                      {"L'immunologie"} ( modèle 2 )
                     </Link>
                   </li>
                   <li>
@@ -847,14 +841,11 @@ export default function tutorialsPageLevel() {
                   </li>
                 </ul>
               </div>
-              
             </div>
 
-
-            
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-              Transfusion sangains
+                Transfusion sangains
               </div>
               <div>
                 <h2 className="font-bold">Leçon:</h2>
@@ -873,12 +864,11 @@ export default function tutorialsPageLevel() {
                   </li>
                 </ul>
               </div>
-              
             </div>
 
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                Contrôle Semester 1
+                Contrôle Semester 2
               </div>
               <div>
                 <h2 className="font-bold">Contrôle N°1:</h2>
