@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <>
-      <h1>this labo</h1>
+      <h1 className="flex justify-center mt-[40vh]">Bientôt, cette fonctionnalité sera disponible</h1>
       </>
     );
   }
