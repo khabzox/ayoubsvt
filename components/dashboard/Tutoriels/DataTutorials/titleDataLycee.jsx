@@ -7,12 +7,12 @@ export const titleDataLycee = [
   {
     id: 2,
     text: "1BAC",
-    link: "/dashboard/tutorials/1BAC",
+    link: "/dashboard/tutorials/ChooseDivision1Bac",
   },
   {
     id: 3,
     text: "2BAC",
-    link: "/dashboard/tutorials/2BAC",
+    link: "/dashboard/tutorials/ChooseDivision2Bac",
   },
   {
     id: 4,

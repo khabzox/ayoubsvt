@@ -2,21 +2,21 @@ export const titleDataLyceeVideo = [
   {
     id: 1,
     text: "TCSF",
-    link: "/dashboard/tutorials/TCSF/video",
+    link: "/buildingInProgresse",
   },
   {
     id: 2,
     text: "1BAC",
-    link: "/dashboard/tutorials/1BAC/video",
+    link: "/buildingInProgresse",
   },
   {
     id: 3,
     text: "2BAC",
-    link: "/dashboard/tutorials/2BAC/video",
+    link: "/buildingInProgresse",
   },
   {
     id: 4,
     text: "Résumés",
-    link: "/dashboard/tutorials/SummariesLycc",
+    link: "/buildingInProgresse",
   },
 ];

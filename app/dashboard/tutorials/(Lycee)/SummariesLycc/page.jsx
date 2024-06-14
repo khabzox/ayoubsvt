@@ -16,20 +16,10 @@ export default function tutorialsPageLevel() {
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
                 <Link
-                  href={"https://heyzine.com/flip-book/343c53e617"}
+                  href={"https://heyzine.com/flip-book/b237f06acc"}
                   target={"_blank"}
                 >
-                  Résumés de 3ac Biof ( modèle 1 )
-                </Link>
-              </div>
-            </div>
-            <div className="mb-5">
-              <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
-                <Link
-                  href={"/data/TutorialsDocs/3AC-BIOf/SummariesColl-pdf.pdf"}
-                  target={"_blank"}
-                >
-                  Résumés de 3ac Biof ( modèle 2 )
+                  Résumés de 2BAC PC
                 </Link>
               </div>
             </div>

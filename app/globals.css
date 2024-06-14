@@ -4,6 +4,7 @@
 
 .contentOfdashboard{
   overflow: auto;
+  height: 100vh;
 }
 
 .imgLfok {
