@@ -26,7 +26,7 @@ export default function tutorialsPageLevel() {
             <div className="mb-5">
               <div className="bg-purple-700 text-white p-2 mb-4 rounded-md">
                 <Link
-                  href={"/data/TutorialsDocs/3AC-BIOf/SummariesColl-pdf.pdf"}
+                  href={"/data/TutorialsDocs/3AC-BIOF/SummariesColl-pdf.pdf"}
                   target={"_blank"}
                 >
                   Résumés de 3ac Biof ( modèle 2 )
