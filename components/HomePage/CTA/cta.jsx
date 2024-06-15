@@ -62,7 +62,7 @@ const CTA = () => {
                   href="/sign-up"
                   className="inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3 font-medium text-black hover:opacity-90 dark:bg-white "
                 >
-                  Sign up free
+                  Inscription gratuite
                   <Image
                     width={20}
                     height={20}
