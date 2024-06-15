@@ -27,7 +27,7 @@ export default function Header() {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
-              <a className="block text-teal-600" href="#">
+              <Link className="block" href="/">
                 <span className="sr-only">Ayoubsvt</span>
                 <Image
                   src={"/images/header-logo.png"}
@@ -35,7 +35,7 @@ export default function Header() {
                   width={130}
                   height={35}
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="hidden md:block">
