@@ -15,7 +15,6 @@ export const metadata = {
   description: "Un site ciblé spécialisé dans les sciences de la vie et de la terre. Il propose un laboratoire virtuel et des cours pour tous les niveaux pour aider les enseignants et les élèves à développer la méthode d'apprentissage de la matière !",
 };
 
-
 export default function Home() {
   return (
     <>
