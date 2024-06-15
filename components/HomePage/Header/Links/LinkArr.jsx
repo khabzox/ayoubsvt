@@ -17,6 +17,6 @@ export const Links = [
     {
       Id: 4,
       link: "Contact",
-      href: "/Contact-us",
+      href: "/contact-us",
     },
   ];

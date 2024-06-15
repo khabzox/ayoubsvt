@@ -4,10 +4,8 @@ import Contact from "@/components/HomePage/Contact/contact";
 import Footer from "@/components/HomePage/Footer/footer";
 
 export const metadata = {
-  title: "AyoubSVT | Contactez-Nous",
-  description:
-    "Vous avez des questions, des suggestions ou simplement envie de discuter? N'hésitez pas à nous contacter chez AyoubSVT. Utilisez notre formulaire de contact ou retrouvez nos coordonnées ci-dessous. Nous sommes là pour vous aider et nous réjouissons de prendre de vos nouvelles!",
-  keywords: "Contact, contact Ayoubsvt, ayoubsvt.com, email",
+  title: "AyoubSVT | Contact-Nous",
+  description: "Contact-Nous est la section idéale pour entrer en contact avec notre équipe. Que vous ayez des questions, besoin d'assistance ou souhaitiez donner votre avis, notre formulaire de contact et nos coordonnées sont disponibles pour vous aider.",
 };
 
 export default function ContactUS() {

@@ -1,28 +1,8 @@
 import Link from "next/link";
-
-// CHATGPT PROMPT TO GENERATE YOUR PRIVACY POLICY — replace with your own data 👇
-
-// 1. Go to https://app.chatgpt.com/
-// 2. Copy paste bellow
-// 3. Replace the data with your own (if needed)
-// 4. Paste the answer from ChatGPT directly in the <pre> tag below
-
-// You are an excellent layer.
-
-// I need your help to write a simple privacy policy for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - User data collected: name, email and payment information
-// - Non-personal data collection: web cookies
-// - Purpose of Data Collection: Order processing
-// - Data sharing: we do not share the data with any other parties
-// - Children's Privacy: we do not collect any data from children
-// - Updates to the Privacy Policy: users will be updated by email
-// - Contact information: marc@shipfa.st
-
-// Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
-
+export const metadata = {
+  title: "AyoubSVT | Privacy Policy",
+  description: "Privacy Policy décrit comment nous collectons, utilisons et protégeons vos informations personnelles. Nous nous engageons à respecter votre vie privée et à garantir que vos données sont traitées avec le plus grand soin et en toute sécurité." ,
+};
 const PrivacyPolicy = () => {
   return (
     <main className="max-w-xl mx-auto">

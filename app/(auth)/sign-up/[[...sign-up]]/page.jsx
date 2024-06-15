@@ -1,5 +1,8 @@
 import { SignUp } from '@clerk/nextjs';
-
+export const metadata = {
+  title: "AyoubSVT | S'inscrire",
+  description: "Créez votre compte pour continuer à AyoubSVT" ,
+};
 export default function Page() {
   return (
     

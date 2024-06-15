@@ -1,5 +1,8 @@
 import { SignIn } from '@clerk/nextjs';
-
+export const metadata = {
+  title: "AyoubSVT | S'identifier",
+  description: "S'identifier pour continuer vers AyoubSVT",
+};
 export default function Page() {
   return (
     <div className='flex items-center justify-center flex-col gap-10'>
