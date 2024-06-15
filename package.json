@@ -1,7 +1,8 @@
 {
-  "name": "safi-hadi-lhra",
+  "name": "ayoubsvt",
   "version": "0.1.8",
   "private": true,
+  "author": "Abdelkabir abdelkabir.ouadoukou@gmail.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
