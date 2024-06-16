@@ -1,6 +1,6 @@
 import Script from "next/script";
 
-const GoogleAnalytics = (ga_id) => (
+const GoogleAnalytics = ({ga_id}) => (
   <>
     <Script
       async
