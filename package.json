@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^1.26.15",
-    "@clerk/nextjs": "^4.29.7",
+    "@clerk/nextjs": "^4.31.8",
     "@ctrl/react-adsense": "^1.7.0",
     "@pdftron/webviewer": "^10.9.0",
     "@radix-ui/react-label": "^2.0.2",
